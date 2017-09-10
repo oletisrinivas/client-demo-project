@@ -3,7 +3,7 @@
 	<groupId>in.javahome</groupId>
 	<artifactId>DevOpsDemoProject</artifactId>
 	<packaging>war</packaging>
-	<version>20.0.10-SNAPSHOT</version>
+	<version>20.1.10-SNAPSHOT</version>
 	<name>DevOps Demo Project</name>
 	<url>http://maven.apache.org</url>
 	
