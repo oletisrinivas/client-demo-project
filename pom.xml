@@ -7,11 +7,6 @@
 	<name>DevOps Demo Project</name>
 	<url>http://maven.apache.org</url>
 	
-<properties>
-	 <!-- SONAR SERVER ON A REMOTE HOST -->
- 	<sonar.host.url>http://13.126.135.65:9000</sonar.host.url>
-</properties>
-	
 	<dependencies>
 		<dependency>
 			<groupId>javax.servlet</groupId>
@@ -63,8 +58,10 @@
 		</plugin>
 		</plugins>
 	</build>
+	
+	 <!-- SONAR SERVER ON A REMOTE HOST -->
 	  <properties>
-            <project.scm.id>git</project.scm.id>
+            <sonar.host.url>http://13.126.135.65:9000</sonar.host.url>
          </properties>
 	  <scm>
 		<url>https://github.com/NagireddyGuduru/client-demo-project</url>
