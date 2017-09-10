@@ -7,6 +7,11 @@
 	<name>DevOps Demo Project</name>
 	<url>http://maven.apache.org</url>
 	
+<properties>
+	 <!-- SONAR SERVER ON A REMOTE HOST -->
+ 	<sonar.host.url>http://13.126.135.65:9000</sonar.host.url>
+</properties>
+	
 	<dependencies>
 		<dependency>
 			<groupId>javax.servlet</groupId>
